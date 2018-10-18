@@ -31,6 +31,9 @@ font-family:'Helvetica', 'Arial', 'Sans-Serif';
 
 
 }
+nav{
+border-bottom: 1px solid #d5d5d5;
+}
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
