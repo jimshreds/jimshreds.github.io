@@ -14,10 +14,14 @@
 	    		</ul>
 			</nav>
 			<div class="container">
-			
-				<p>Punk</p>		
-	<p>Skateboards</p>	
-	<p>Web Development</p>	
+
+				<p>Punk</p>
+	<p>Skateboards</p>
+	<p>Web Development</p>
+	<hr />
+	<h2>Most Recent Posts</h2>
+		{{ for post in site.posts limit:4 }}
+		{{ endfor }}
 
 			</div><!-- /.container -->
 			<footer>
