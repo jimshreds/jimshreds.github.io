@@ -20,10 +20,10 @@
 	<p>Web Development</p>
 	<hr />
 	<h2>Most Recent Posts</h2>
-		{{ for post in site.posts limit:4 }}
+		{% for post in site.posts limit:4 %}
 		... Show the next four posts ...
 
-		{{ endfor }}
+		{% endfor %}
 
 			</div><!-- /.container -->
 			<footer>
