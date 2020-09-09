@@ -17,15 +17,14 @@
 				<div class="subhead"><ul><li>Punk</li><li>Skateboards</li><li>Web Development</li></ul></div>
 				<hr />
 				<h2>Most Recent Posts</h2>
-					{% for post in site.posts limit:1 %}
+						{%- assign latest_post = site.posts[0] -%}
 						<div class="post">
-							{{ post.date }}
+							{{ latest_post.date }}
 
-							{{ post.title }}
+							{{ latest_post.title }}
 
-							{{ post.content }}
+							{{ latest_post.content }}
 						</div>
-					{% endfor %}
 			</div><!-- /.container -->
 			<footer>
 				<a href="https://www.twitter.com/jimshreds" target="blank">@jimshreds</a>
