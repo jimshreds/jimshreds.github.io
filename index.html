@@ -14,25 +14,19 @@
 	    		</ul>
 			</nav>
 			<div class="container">
+				<div class="subhead"><ul><li>Punk</li><li>Skateboards</li><li>Web Development</li></ul></div>
+				<hr />
+				<h2>Most Recent Posts</h2>
+					{% for post in site.posts limit:1 %}
+						<div class="post">
+							{{post.date}}
 
-				<p>Punk</p>
-	<p>Skateboards</p>
-	<p>Web Development</p>
-	<hr />
-	<h2>Most Recent Posts</h2>
-		{% for post in site.posts limit:1 %}
-		<div class="post">
-			{{post.date}}
-
-			{{post.content}}
-		</div>
-		{% endfor %}
-
+							{{post.content}}
+						</div>
+					{% endfor %}
 			</div><!-- /.container -->
 			<footer>
-	    		<ul>
-
-				</ul>
+				social goes here
 			</footer>
 		</body>
 	</html>
