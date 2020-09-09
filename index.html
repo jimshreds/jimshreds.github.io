@@ -21,8 +21,11 @@
 	<hr />
 	<h2>Most Recent Posts</h2>
 		{% for post in site.posts limit:4 %}
-		... Show the next four posts ...
+		<div class="post">
+			{{post.date}}
 
+			{{post.content}}
+		</div>
 		{% endfor %}
 
 			</div><!-- /.container -->
