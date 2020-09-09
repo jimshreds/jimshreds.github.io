@@ -1,8 +1,22 @@
 ---
-layout: default
 title: @jimshreds
 ---
-
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
 				<div class="subhead"><ul><li>Punk</li><li>Skateboards</li><li>Web Development</li></ul></div>
 				<hr />
 				<h2>Most Recent Posts</h2>
@@ -15,3 +29,8 @@ title: @jimshreds
 							{{ latest_post.content }}
 						</div>
 			</div><!-- /.container -->
+			<footer>
+				<a href="https://www.twitter.com/jimshreds" target="blank">@jimshreds</a>
+			</footer>
+		</body>
+	</html>
