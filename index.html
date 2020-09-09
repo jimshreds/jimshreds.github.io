@@ -19,9 +19,9 @@
 				<h2>Most Recent Posts</h2>
 					{% for post in site.posts limit:1 %}
 						<div class="post">
-							{{post.date}}
+							{{ post.date }}
 
-							{{post.content}}
+							{{ post.content }}
 						</div>
 					{% endfor %}
 			</div><!-- /.container -->
