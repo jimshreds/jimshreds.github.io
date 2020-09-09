@@ -22,7 +22,7 @@ title: @jimshreds
 				<h2>Most Recent Posts</h2>
 						{% assign latest_post = site.posts[0] %}
 						<div class="post">
-							{{ latest_post.date }}
+							{{ latest_post.date | date_to_string}}
 
 							{{ latest_post.title }}
 
