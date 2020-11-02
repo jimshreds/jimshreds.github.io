@@ -7,7 +7,7 @@ date: 2020-11-02
 
 Playlist:
 1. Skate Or Die / Bones Brigade
-2. Bloodstains [Original Version] / Agent...
+2. Bloodstains [Original Version] / Agent Orange
 3. Rise Above / Black Flag
 4. It`s In My Blood / BL'AST!
 5. On the Street / Die Kreuzen
