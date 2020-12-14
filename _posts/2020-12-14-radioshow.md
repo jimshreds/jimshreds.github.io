@@ -4,7 +4,7 @@ title: "Radio Show: December 13, 2020"
 date: 2020-12-14
 ---
 
-[No Gall . No Glory](https://www.mixcloud.com/jimshreds/december-13-2020-wkdu-917fm/) Missed my last show due to a robot going haywire. RIP CHris Neumann.
+[No Gall . No Glory](https://www.mixcloud.com/jimshreds/december-13-2020-wkdu-917fm/) Missed my last show due to a robot going haywire. RIP Chris Neumann.
 
 1. Nature's Burning / 2.5 Children Inc.
 2. Bottled Up / Texas Criffer and Plow United
