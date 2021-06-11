@@ -1,7 +1,7 @@
+---
 layout: post
 title: "Radio Show: June 06, 2021"
 date: 2021-06-11
-
 ---
 
 [No Gall . No Glory](https://www.mixcloud.com/jimshreds/june-06-2021-no-gall-no-glory-wkdu-917fm-philadelphia/) It hot.
@@ -29,7 +29,7 @@ date: 2021-06-11
 21. Quite Exciting, This Computer Magic / Spraynard
 22. Knives, Bats, New Tats / Lifetime
 23. On The Nod / Avail
-24. MINIMUM WAGE IS a GATEWAY DRUG /Dillenger Four
+24. MINIMUM WAGE IS a GATEWAY DRUG /Dillinger Four
 25. Loaded Gun / American Steel
 26. IDon'tWantToBetheOneToSayIt/Leatherface
 27. Old Rules (2018 Remaster) / Hot Water Music
