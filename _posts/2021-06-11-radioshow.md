@@ -4,7 +4,7 @@ title: "Radio Show: June 06, 2021"
 date: 2021-06-11
 ---
 
-[Listen to No Gall . No Glory on Mixcloud](https://www.mixcloud.com/jimshreds/june-06-2021-no-gall-no-glory-wkdu-917fm-philadelphia/) It hot.
+[Listen to No Gall . No Glory on Mixcloud](https://www.mixcloud.com/jimshreds/june-06-2021-no-gall-no-glory-wkdu-917fm-philadelphia/) Its hot.
 
 1. Here Comes the Summer / The Undertones
 2. 78 R.P.M. / Stiff Little Fingers
