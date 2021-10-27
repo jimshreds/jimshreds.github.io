@@ -21,9 +21,9 @@ date: 2021-10-27
 13. We Will Outlive You / The Vigilantes
 14. Rank and File / Noi!se
 15. Tumbling Down / Bishops Green
-16. 1. Will To Kill / Quarantine
-17. 7. Disgrace / Quarantine
-18. 2. FAIL TO SEE / Nomad
+16. Will To Kill / Quarantine
+17. Disgrace / Quarantine
+18. FAIL TO SEE / Nomad
 19. Lament / Zorn
 20. Terminal / DShK
 21. The Place of Horror / Disarray
