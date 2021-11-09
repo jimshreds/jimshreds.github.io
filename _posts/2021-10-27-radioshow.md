@@ -27,7 +27,7 @@ date: 2021-10-27
 19. Lament / Zorn
 20. Terminal / DShK
 21. The Place of Horror / Disarray
-22. 3. Rationalization / SCARECROW
+22. Rationalization / SCARECROW
 23. Anarchy Chaos Destruction / Crow
 24. Face Of Brutality / After The Bombs
 25. Fight With No Fear / WARHEAD
