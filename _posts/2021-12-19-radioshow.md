@@ -8,7 +8,7 @@ date: 2021-12-19
 2021 rounded up.
 
 1. Skugge / Wardruna
-2. Push the Sky Away (with Melbourne Symphony Orchestra) [Live] / Nick Cave & The Bad Seeds
+2. Push the Sky Away (with Melbourne Symphony Orchestra) - live / Nick Cave & The Bad Seeds
 3. Мёртв внутри (feat. Molchat Doma) / Electroforez
 4. Cicero / Soft Kill
 5. Marigold / Riki
