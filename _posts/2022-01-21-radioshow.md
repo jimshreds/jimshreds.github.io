@@ -17,7 +17,7 @@ Sundays 8pm - 10pm EST.
 8. Too Little, Too Late / SCARECROW
 9. Tidak Ada Manusia Ilegal / Reaksi
 10. Extintos / Sedicion
-11. System / (Poland) Dezerter
+11. System / Dezerter
 12. Den Enes Brod / Asta Kask
 13. Last Survivors / THE BRISTLES
 14. Pint of No Return / Trappist
