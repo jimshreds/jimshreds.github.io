@@ -4,7 +4,7 @@ title: "Radio Show: February 27, 2022"
 date: 2022-03-03
 ---
 
-[Listen to No Gall . No Glory on Mixcloud](https://www.mixcloud.com/jimshreds/february-13-2022-no-gall-no-glory-wkdu-philadelphia-917fm/).
+[Listen to No Gall . No Glory on Mixcloud](https://www.mixcloud.com/jimshreds/february-27-2022-no-gall-no-glory-wkdu-philadelphia-917fm/).
 Sundays 8pm - 10pm EST.
 
 1. Fight War, Not Wars / Crass
