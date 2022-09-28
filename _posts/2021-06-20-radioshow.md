@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: June 20, 2021"
 date: 2021-06-25
+categories: radio
 ---
 
 [Listen to No Gall . No Glory on Mixcloud](https://www.mixcloud.com/jimshreds/june-20-2021-no-gall-no-glory-wkdu-917fm-philadelphia/) Sixers lost. Crack a 40, drown your sorrows in the gutter.

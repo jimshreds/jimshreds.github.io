@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: November 02, 2020"
 date: 2020-11-02
+categories: radio
 ---
 [No Gall . No Glory](https://www.mixcloud.com/jimshreds/november-1-2020/) All songs about skateboards or bands I first heard from skate videos.
 

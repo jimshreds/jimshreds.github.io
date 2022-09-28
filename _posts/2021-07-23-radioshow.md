@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: July 18, 2021"
 date: 2021-07-21
+categories: radio
 ---
 
 [Listen to No Gall . No Glory on Mixcloud](https://www.mixcloud.com/jimshreds/july-18-2021-no-gall-no-glory-wkdu-philadelphia-917fm/) Dance Mosh Dance

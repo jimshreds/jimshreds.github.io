@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: February 07, 2021"
 date: 2021-02-12
+categories: radio
 ---
 
 [No Gall . No Glory](https://www.mixcloud.com/jimshreds/february-7-2021-no-gall-no-glory-wkdu-917fm/) Better late than never. Punk stuff.

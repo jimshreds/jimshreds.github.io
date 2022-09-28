@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: July 17, 2022"
 date: 2022-07-20
+categories: radio
 ---
 
 [Listen to No Gall . No Glory on Mixcloud](https://www.mixcloud.com/jimshreds/july-17-2022-no-gall-no-glory-wkdu-philadelphia-917fm/).

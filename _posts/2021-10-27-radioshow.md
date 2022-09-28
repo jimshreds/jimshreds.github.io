@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: October 24, 2021"
 date: 2021-10-27
+categories: radio
 ---
 
 [Listen to No Gall . No Glory on Mixcloud](https://www.mixcloud.com/jimshreds/october-24-2021-no-gall-no-glory-wkdu-917fm-philadelphia/). Mostly new. Some old. All good.

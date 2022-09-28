@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: July 04, 2021"
 date: 2021-07-07
+categories: radio
 ---
 
 [Listen to No Gall . No Glory on Mixcloud](https://www.mixcloud.com/jimshreds/july-4-2021-no-gall-no-glory-wkdu-917fm-philadelphia/) Started and ended with all fingers.
