@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: December 13, 2020"
 date: 2020-12-14
+categories: radio
 ---
 
 [No Gall . No Glory](https://www.mixcloud.com/jimshreds/december-13-2020-wkdu-917fm/) Missed my last show due to a robot going haywire. RIP Chris Neumann.

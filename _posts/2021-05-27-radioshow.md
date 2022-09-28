@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: May 23, 2021"
 date: 2021-05-27
+categories: radio
 ---
 
 [No Gall . No Glory](https://www.mixcloud.com/jimshreds/may-23-2021-no-gall-no-glory-wkdu-917fm/) So Long To The Circus

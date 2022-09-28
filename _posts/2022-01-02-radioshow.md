@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: January 2, 2022"
 date: 2022-01-02
+categories: radio
 ---
 
 [Listen to No Gall . No Glory on Mixcloud](https://www.mixcloud.com/jimshreds/january-2-2022-no-gall-no-glory-wkdu-philadelphia-917fm/).

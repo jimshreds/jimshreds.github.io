@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: November 22, 2021"
 date: 2021-11-22
+categories: radio
 ---
 
 [Listen to No Gall . No Glory on Mixcloud](https://www.mixcloud.com/jimshreds/november-22-2021-no-gall-no-glory-wkdu-philadelphia-917fm/).

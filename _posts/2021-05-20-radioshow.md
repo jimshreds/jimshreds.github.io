@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: May 9, 2021"
 date: 2021-05-20
+categories: radio
 ---
 
 [No Gall . No Glory](https://www.mixcloud.com/jimshreds/may-9-2021-no-gall-no-glory-wkdu-philadelphia-917fm/) A Journey

@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: April 4, 2021"
 date: 2021-04-14
+categories: radio
 ---
 
 [No Gall . No Glory](https://www.mixcloud.com/jimshreds/april-3-2021-no-gall-no-glory-wkdu-917fm-philadelphia/) A Journey

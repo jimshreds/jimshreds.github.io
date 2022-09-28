@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: October 5, 2020"
 date: 2020-10-05
+categories: radio
 ---
 [No Gall . No Glory](https://www.mixcloud.com/jimshreds/october-4-2020/) First show back in a while on WKDU. Was weird on a number of fronts. Talking into a mic that doesn't initially go anywhere is odd. In studio knowing there were people on the other end listening is different.
 

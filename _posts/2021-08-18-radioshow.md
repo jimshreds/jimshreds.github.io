@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: August 15, 2021"
 date: 2021-08-19
+categories: radio
 ---
 
 [Listen to No Gall . No Glory on Mixcloud](https://www.mixcloud.com/jimshreds/august-15-no-gall-no-glory-wkdu-917fm-philadelphia/) Crash The Pose.
