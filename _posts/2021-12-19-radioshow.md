@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: December 19, 2021"
 date: 2021-12-19
+categories: radio
 ---
 
 [Listen to No Gall . No Glory on Mixcloud](https://www.mixcloud.com/jimshreds/december-19-2021-no-gall-no-glory-wkdu-philadelphia-917fm/).

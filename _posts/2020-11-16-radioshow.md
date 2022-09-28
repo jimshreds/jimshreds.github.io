@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: November 16, 2020"
 date: 2020-11-16
+categories: radio
 ---
 [No Gall . No Glory](https://www.mixcloud.com/jimshreds/november-15-2020/) Dance into the apocolypse
 
