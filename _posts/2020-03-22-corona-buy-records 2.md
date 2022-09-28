@@ -2,6 +2,7 @@
 layout: post
 title: "Buy some records"
 date: 2020-03-22
+categories: thought
 ---
 Shit is hard right now. Below are a list of place I buy records from both IRL and online. Running a record shop ain't easy, especially when there's a pandemic.
 
