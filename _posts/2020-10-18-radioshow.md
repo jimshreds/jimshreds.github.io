@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: October 18, 2020"
 date: 2020-10-18
+categories: radio
 ---
 [No Gall . No Glory](https://www.mixcloud.com/jimshreds/october-18-2020/) Tried to switch up how this show came together. More curated than free form with the idea being settling into a place with a beverage and the scene opens up as time moves on.
 

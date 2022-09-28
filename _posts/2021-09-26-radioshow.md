@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: September 26, 2021"
 date: 2021-10-01
+categories: radio
 ---
 
 [Listen to No Gall . No Glory on Mixcloud](https://www.mixcloud.com/jimshreds/september-26-2021-no-gall-no-glory-wkdu-philadelphia-917fm/). All go no slow. All killer no filler. Shingles are annoying.

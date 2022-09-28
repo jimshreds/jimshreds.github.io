@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: January 24, 2021"
 date: 2021-01-29
+categories: radio
 ---
 
 [No Gall . No Glory](https://www.mixcloud.com/jimshreds/january-24-2021-no-gall-no-glory-on-wkdu-philadelphia-917fm/) Missed a week due to robot issues at the transmitter. Just finished watching The Crown and the first bit is all songs about Thatcher. Then we go into a lot of internation hardcore and d-beat.

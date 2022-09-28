@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: September 11, 2022"
 date: 2022-09-14
+categories: radio
 ---
 
 [Listen to No Gall . No Glory on Mixcloud](https://www.mixcloud.com/jimshreds/september-11-2022-no-gall-no-glory-wkdu-philadelphia-917fm/).

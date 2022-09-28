@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: June 19, 2022"
 date: 2022-06-24
+categories: radio
 ---
 
 [Listen to No Gall . No Glory on Mixcloud](https://www.mixcloud.com/jimshreds/june-19-2022-no-gall-no-glory-wkdu-philadelphia-917fm/).

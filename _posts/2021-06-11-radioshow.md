@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: June 06, 2021"
 date: 2021-06-11
+categories: radio
 ---
 
 [Listen to No Gall . No Glory on Mixcloud](https://www.mixcloud.com/jimshreds/june-06-2021-no-gall-no-glory-wkdu-917fm-philadelphia/) Its hot.
