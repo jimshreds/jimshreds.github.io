@@ -9,7 +9,7 @@ categories: radio
 
 Sundays 8pm - 10pm EST.
 91.7fm in Philadelphia<
-[wkdu.org everywhere else](https://www.wkdu.org)<br/>
+[wkdu.org everywhere else](https://www.wkdu.org)
 
 Requests: [@jimshreds](https://twitter.com/jimshreds)
 
