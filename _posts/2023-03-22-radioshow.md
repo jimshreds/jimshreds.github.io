@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Radio Show: March 19, 2023"
-date: 2023-03-22
+date: 2023-03-21
 categories: radio
 ---
 
@@ -18,7 +18,6 @@ Requests: [@jimshreds](https://twitter.com/jimshreds)
 1. The New York Trader / Lankum
 2. The Game / The Levellers
 3. Lonely Town / Galen & Paul, Galen Ayers & Paul Simonon
-Printed with iTunes
 4. What They Say / The Whiffs
 5. Dance Dance Dance Dance Dance to the Radio / M.O.T.O.
 6. Resurrection / Truth Cult
