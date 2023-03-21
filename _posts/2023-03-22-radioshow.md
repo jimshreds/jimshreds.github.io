@@ -47,7 +47,7 @@ Printed with iTunes
 29. Own Worst Enemy / Violent Reaction
 30. No Paradise / Crown Court
 31. Skinhead / Violent Way
-32. I’m Not Your Skinhead / Conservative Militarie Image
+32. I’m Not Your Skinhead / Conservative Military Image
 33. Enough Said / The Chisel
 34. W.D.N.Y. / The Flex
 35. Someone's Gunna Die / Chubby and the Gang
