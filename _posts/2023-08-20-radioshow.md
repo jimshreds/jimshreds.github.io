@@ -18,14 +18,15 @@ Requests: [@jimshreds](https://twitter.com/jimshreds)
 Play Now
 
 <iframe src="https://archive.org/embed/2023-08-20-nogall-noglory" width="500" height="60" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+
 1. Ya Ya Ya / Space Cadet
-2. Saturday Night's Alright (For Fighting) | The Chisel
+2. Saturday Night's Alright (For Fighting) / The Chisel
 3. Right Side of History / Death Ridge Boys
 4. Innocence / The Slads
 5. Deception / Kinetic Orbital Strike
 6. Misiowie puszyści / Siekiera
 7. Ku Przyszlosci / Dezerter
-8. 01 Disease - Under The Ruins / Disease
+8. Under The Ruins / Disease
 9. TOMORROW / FRAMTID
 10. Bite Back / Genöme
 11. Paniikkia / Appendix
