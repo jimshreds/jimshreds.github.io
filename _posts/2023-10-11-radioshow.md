@@ -8,9 +8,7 @@ categories: radio
 [Listen to No Gall . No Glory now on Archive.org](https://archive.org/details/2023-10-01-nogallnoglory).
 
 Sundays 8pm - 10pm EST.
-
 91.7fm in Philadelphia
-
 [wkdu.org everywhere else](https://www.wkdu.org)
 
 Requests
