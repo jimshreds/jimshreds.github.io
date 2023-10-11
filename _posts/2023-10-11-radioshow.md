@@ -7,18 +7,18 @@ categories: radio
 
 [Listen to No Gall . No Glory now on Archive.org](https://archive.org/details/2023-10-01-nogallnoglory).
 
-Sundays 8pm - 10pm EST.
-91.7fm in Philadelphia
+Sundays 8pm - 10pm EST.<br>
+91.7fm in Philadelphia<br>
 [wkdu.org everywhere else](https://www.wkdu.org)
 
-Requests
-Twitter : [@jimshreds](https://twitter.com/jimshreds)
-Mastodon : [@jimshreds@mastodon.cloud](https://mastodon.cloud/@jimshreds)
+Requests<br>
+Twitter : [@jimshreds](https://twitter.com/jimshreds)<br>
+Mastodon : [@jimshreds@mastodon.cloud](https://mastodon.cloud/@jimshreds)<br>
 Threads : [@jimshredss](https://www.threads.net/@jimshredss)
 
 
 
-Play Now
+Play Now<br>
 
 <iframe src="https://archive.org/embed/2023-10-01-nogallnoglory" width="500" height="60" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 
