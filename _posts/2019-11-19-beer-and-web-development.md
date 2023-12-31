@@ -2,6 +2,7 @@
 layout: post
 title: "Beer and web development"
 date: 2019-11-19
+categories: thought
 ---
  Recently passed a training course at Dogfish Head that started us on a path of being better tasters of beer. Beer is the sum of a few parts with intricate processes mixed in to help it along. A website is similar in that there are disparate parts that when combined create a new thing.
 
