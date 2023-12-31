@@ -1,5 +1,5 @@
 ---
-title: @jimshreds
+title: jimshreds
 ---
 <!DOCTYPE html>
 	<html>
@@ -13,24 +13,29 @@ title: @jimshreds
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
 		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
+	        		<li><a href="/blog">All</a></li>
+					<li><a href="/category/link">Link Lists</a></li>
+					<li><a href="/category/thought">Thought</a></li>
+	        		<li><a href="/category/radio">WKDU Radio Show Archive</a></li>
+				</ul>
 			</nav>
 			<div class="container">
-				<div class="subhead"><ul><li>Punk</li><li>Skateboards</li><li>Web Development</li></ul></div>
+				<div class="subhead">>>></div>
 				<hr />
-				<h2>Most Recent Posts</h2>
+				<h2>Most Recent</h2>
 						{% assign latest_post = site.posts[0] %}
 						<div class="post">
-							{{ latest_post.date | date_to_string}}
+							<p>
+								{{ latest_post.date | date_to_string}}<br>
 
-							{{ latest_post.title }}
+								{{ latest_post.title }}
+							</p>
 
 							{{ latest_post.content }}
 						</div>
 			</div><!-- /.container -->
 			<footer>
-				<a href="https://www.twitter.com/jimshreds" target="blank">@jimshreds</a>
+				<a href="https://www.twitter.com/jimshreds" target="blank">Twitter: @jimshreds</a>
 			</footer>
 		</body>
 	</html>

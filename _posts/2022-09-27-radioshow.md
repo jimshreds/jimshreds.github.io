@@ -6,7 +6,8 @@ categories: radio
 ---
 
 [Listen to No Gall . No Glory on Mixcloud](https://www.mixcloud.com/jimshreds/september-25-2022-no-gall-no-glory-wkdu-philadelphia-917fm/).
-Sundays 8pm - 10pm EST.
+
+Listen Live Sundays 8pm - 10pm EST. 91.7fm in Philadelphia and [wkdu.org](http://wkdu.org) everywhere else.
 
 Requests: [@jimshreds](https://twitter.com/jimshreds)
 
