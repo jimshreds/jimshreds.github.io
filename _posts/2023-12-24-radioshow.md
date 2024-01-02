@@ -6,6 +6,7 @@ categories: radio
 ---
 
 [Listen to No Gall . No Glory now on Archive.org](https://archive.org/details/2023-12-24-nogallnoglory).
+Not a complete list but an approximation of some good things of 2023
 
 Sundays 8pm - 10pm EST.<br>
 91.7fm in Philadelphia<br>
@@ -51,7 +52,7 @@ Play Now<br>
 26. Nameless Graves / Kinetic Orbital Strike
 27. Life Suffer Die / Quarantine
 28. Already Dead / Zorn
-29. Yesterday's Anguish, Tomorrow's Despair / PHYSIQUE 
+29. Yesterday's Anguish, Tomorrow's Despair / PHYSIQUE
 30. The Guillotine / Raw Peace
 31. 無差別な苦痛 (Musabetsuna Kutsuu) / 偏執症者 (Paranoid)
 32. 71,000 Warheads / Destruct
