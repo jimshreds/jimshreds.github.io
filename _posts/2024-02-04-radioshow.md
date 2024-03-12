@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Radio Show: Februat 4, 2024"
+title: "Radio Show: February 4, 2024"
 date: 2024-02-16
 categories: radio
 ---
