@@ -14,7 +14,7 @@ Sundays 8pm - 10pm EST.<br>
 
 Requests<br>
 Mastodon : [@jimshreds@mastodon.cloud](https://mastodon.cloud/@jimshreds)<br>
-Threads : [@jimshredss](https://www.threads.net/@jimshredss)
+Threads : [@jimshredss](https://www.threads.net/@jimshredss)<br>
 Twitter : [@jimshreds](https://twitter.com/jimshreds)<br>
 
 
