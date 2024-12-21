@@ -26,7 +26,7 @@ Play Now<br>
 1. You're Not Singing Anymore / Mekons
 2. Kto / Śmierć
 3. Miserable life / Nukies
-4. Blackened Dove (2024 Remaster) / Naus
+4. Blackened Dove (2024 Remaster) / Nausea
 5. Sinkhole / The Brood
 6. Shallow Graves / The Brood
 7. Over Evolved Technology / LIFE
