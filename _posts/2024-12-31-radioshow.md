@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Radio Show: December 29, 2024"
-date: 2024-12-31
+title: "Radio Show: January 12, 2025"
+date: 2025-01-17
 categories: radio
 ---
 
-[Listen to No Gall . No Glory now on Archive.org](https://archive.org/details/2024-12-29-nogallnoglory).
+[Listen to No Gall . No Glory now on Archive.org](https://archive.org/details/2025-01-12-nogallnoglory).
 
 Sundays 8pm - 10pm EST.<br>
 91.7fm in Philadelphia<br>
@@ -21,37 +21,45 @@ Twitter : [@jimshreds](https://twitter.com/jimshreds)<br>
 
 Play Now<br>
 
-<iframe src="https://archive.org/embed/2024-12-29-nogallnoglory" width="500" height="60" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+<iframe src="https://archive.org/embed/2025-01-12-nogallnoglory" width="500" height="60" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 
-
-1. Better Way To Live (feat. Grian Chatten) / Kneecap
-2. Hunted (On The Run) / The Bug
-3. Dream Dollar / Kim Gordon
-4. Wsod / Shellac
-5. The Liminal / Chelsea Wolfe
-6. Only the Diceys / One Leg One Eye
-7. And Nothing Is Forever / The Cure
-8. Flamme Jumelle / Alcest
-9. Final Rescue Attempt / Nick Cave & The Bad Seeds
-10. Right Back to It / Waxahatchee
-11. Tchinta / Mdou Moctar
-12. Joy is a Crime / Soft Kill
-13. Gone Forever / High Vis
-14. Elegy / trauma ray
-15. I Want to Be Invisible / Glitterer
-16. It’s Only A Secret (feat. MSPAINT) / Dazy
-17. A Good Time Pushed / Kim Deal
-18. Citadelle Rock / Rixe
-19. Mélanie / ALVILDA
-20. Burning Question / Mopar Stars
-21. To Be Young / Chubby and the Gang
-22. Kto / Śmierć
-23. Moving On / Pissed Jeans
-24. Blinding Faith / Knocked Loose
-25. Petoksen Messias / Valtatyhjiö
-26. Creep / KLONNS
-27. Ignorance / Public Acid
-28. Corporate Funded Killing Technology / S.H.I.T.
-29. Confrere / Poison Ruïn
-30. Further / Fentanyl
-31. Hunting the Wren (Live in Dublin) / Lankum
+1. Fremdträume / Cosey Mueller
+2. Warplane / Heartworms
+3. Anhedonia / Korine
+4. Dream Bigger (feat. Amy Taylor) / Bob Vylan
+5. Good Cop Bad Cop / Wake In Fright
+6. Everything and Nothing / SOFT PLAY
+7. Cut Me Loose / Rifle
+8. Balas, Siempre Balas / Generacion Suicid
+9. Please Don't Leave Me Alone / DARK THRONE
+10. Rat Face / THE SPITS
+11. Nowhere / The Stitches
+12. Addicted to You / The Bodies
+13. Teenage Genocide / Swingin' Utters
+14. Lamar Vannoy / The Bouncing Souls
+15. The Brothels / Rancid
+16. Loud Proud 'N' Punk / The Business
+17. London Is the Reason / Gallows
+18. Famine / Paint It Black
+19. Into the Wayside, Pt. 1 / Sick / Ceremony
+20. Dead and Gone / American Nightmare
+21. Memory Layne (Remastered) / Blacklisted
+22. The Prophets and Doom / The Hope Conspiracy
+23. Upheaval / Oathbreaker
+24. Ceaseless Becoming (2022 Remaster) / KYLESA
+25. Howling Primitive Colonies / Darkthrone
+26. They Wait For You Still / Hellshock
+27. Beginning of the End / Tragedy
+28. Corporate Tyrannicide / Anti-Product
+29. Yet They Still Ignore / Antisect
+30. Big a Little A / Crass
+31. A War On Reality / Witch Hunt
+32. Blurry Vision / Signal Lost
+33. TV Screen / Cress
+34. Consider It War / Deathreat
+35. Defeat Of Civilization / Framtid
+36. Ashes of death / Disclose
+37. Cry of Truth / Warhead
+38. This Is Hell / Perdition
+39. Ghoul / Klonns
+40. Shallow Graves / The Brood
