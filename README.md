@@ -27,8 +27,3 @@ xmllint --noout _site/feed.podcast.xml && echo "feed ok"
 
 
 
-
-git push https://[REDACTED_TOKEN]@github.com/jimshreds/jimshreds.git
-
-
- git push https://jimshreds:[REDACTED_TOKEN].github.com/jimshreds/jimshreds.github.io.git
