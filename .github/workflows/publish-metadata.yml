@@ -1,0 +1,92 @@
+name: Run metadata and open PR
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  run-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run metadata script (makes changes)
+        run: |
+          python3 scripts/fetch_archive_metadata.py --all --backup --head-fallback --report scripts/archive_report.json || true
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "actions@github.com"
+
+      - name: Commit changes
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: update podcast metadata (automated)"
+          git push origin HEAD:metadata/run --force
+      - name: Checkout pushed branch
+        run: |
+          git fetch origin metadata/run:metadata/run || true
+          git checkout metadata/run || git checkout -b metadata/run
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+
+      - name: Install Bundler and gems
+        run: |
+          gem install bundler
+          bundle install --jobs 4 --retry 3
+
+      - name: Build site and validate feed
+        run: |
+          set -o pipefail
+          bundle exec jekyll build > build_output.txt 2>&1 || true
+          echo "--- XMlLint Output ---" > xmllint_output.txt
+          if xmllint --noout _site/feed.podcast.xml 2>> xmllint_output.txt; then
+            echo "XMlint: OK" >> xmllint_output.txt
+          else
+            echo "XMlint: FAILED" >> xmllint_output.txt
+          fi
+          echo "Build and xmllint finished"
+
+      - name: Prepare PR body
+        run: |
+          echo "Automated metadata update (see report below)." > pr_body.md
+          echo >> pr_body.md
+          echo "## Metadata script report" >> pr_body.md
+          echo ' ' >> pr_body.md
+          if [ -f scripts/archive_report.json ]; then
+            jq -r '.' scripts/archive_report.json >> pr_body.md || cat scripts/archive_report.json >> pr_body.md
+          else
+            echo 'No scripts/archive_report.json generated.' >> pr_body.md
+          fi
+          echo >> pr_body.md
+          echo "## Build output (truncated)" >> pr_body.md
+          tail -n 200 build_output.txt >> pr_body.md || true
+          echo >> pr_body.md
+          echo "## xmllint output" >> pr_body.md
+          cat xmllint_output.txt >> pr_body.md || true
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: update podcast metadata (automated)"
+          branch: metadata/run
+          title: "Automated: Update podcast metadata"
+          body: "$(cat pr_body.md)"
+          base: master
