@@ -15,15 +15,3 @@ bundle exec jekyll build
 
 # validate
 xmllint --noout _site/feed.podcast.xml && echo "feed ok"
-
-
-
-
-
-
-
-
-
-
-
-
