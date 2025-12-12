@@ -2,6 +2,7 @@
 layout: post
 title: "Radio Show: November 23, 2025"
 date: 2025-11-26
+categories: radio
 audio_url: "https://archive.org/download/2025-11-23-nogallnoglory/2025-11-23-NOGALLNOGLORY-jim.mp3"
 audio_length: 287498012
 audio_mime: audio/mpeg
