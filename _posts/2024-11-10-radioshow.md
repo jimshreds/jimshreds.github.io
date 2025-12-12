@@ -3,6 +3,10 @@ layout: post
 title: "Radio Show: November 10, 2024"
 date: 2024-11-11
 categories: radio
+audio_url: "https://archive.org/download/2024-11-10-nogallnoglory/2024-11-10-nogallnoglory-jim.mp3"
+audio_length: 282257348
+audio_mime: audio/mpeg
+itunes_duration: "01:57:36"
 ---
 
 [Listen to No Gall . No Glory now on Archive.org](https://archive.org/details/2024-11-10-nogallnoglory).

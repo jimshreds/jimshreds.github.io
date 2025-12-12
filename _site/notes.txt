@@ -1,5 +1,0 @@
-bundle exec jekyll serve
-
-https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll
-https://devblog.dymel.pl/2017/02/09/category-rss-feed-in-jekyll/
-https://kylewbanks.com/blog/creating-category-pages-in-jekyll-without-plugins

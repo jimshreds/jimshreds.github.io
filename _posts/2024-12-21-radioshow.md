@@ -3,6 +3,10 @@ layout: post
 title: "Radio Show: December 15, 2024"
 date: 2024-12-21
 categories: radio
+audio_url: "https://archive.org/download/2024-12-15-nogallnoglory/2024-12-15-nogallnoglory-jim.mp3"
+audio_length: 279620252
+audio_mime: audio/mpeg
+itunes_duration: "01:56:30"
 ---
 
 [Listen to No Gall . No Glory now on Archive.org](https://archive.org/details/2024-12-15-nogallnoglory).

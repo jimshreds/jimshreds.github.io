@@ -1,0 +1,37 @@
+name: Podcast metadata & feed validation
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  metadata-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+
+      - name: Install Bundler
+        run: gem install bundler
+
+      - name: Install gems
+        run: bundle install --jobs 4 --retry 3
+
+      - name: Run metadata script (dry-run)
+        run: python3 scripts/fetch_archive_metadata.py --all --dry-run
+
+      - name: Build site
+        run: bundle exec jekyll build
+
+      - name: Validate feed XML (well-formed)
+        run: xmllint --noout _site/feed.podcast.xml
+
+      - name: Show feed head
+        run: sed -n '1,120p' _site/feed.podcast.xml

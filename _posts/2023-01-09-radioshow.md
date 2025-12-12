@@ -3,6 +3,10 @@ layout: post
 title: "Radio Show: January 08, 2023"
 date: 2023-01-09
 categories: radio
+audio_url: "https://archive.org/download/2023-01-07-nogallnoglory/2023-01-07-NOGALLNOGLORY.mp3"
+audio_length: 366954690
+audio_mime: audio/mpeg
+itunes_duration: "02:32:53"
 ---
 
 [Listen to No Gall . No Glory now on Archive.org](https://archive.org/details/2023-01-07-nogallnoglory).

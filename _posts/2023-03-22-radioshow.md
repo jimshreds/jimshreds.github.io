@@ -3,6 +3,10 @@ layout: post
 title: "Radio Show: March 19, 2023"
 date: 2023-03-21
 categories: radio
+audio_url: "https://archive.org/download/2022-03-19-nogallnoglory/2022-03-19-NOGALLNOGLORY.mp3"
+audio_length: 278982652
+audio_mime: audio/mpeg
+itunes_duration: "01:56:14"
 ---
 
 [Listen to No Gall . No Glory now on Archive.org](https://archive.org/details/2022-03-19-nogallnoglory).

@@ -3,6 +3,10 @@ layout: post
 title: "Radio Show: September 8, 2024"
 date: 2024-09-09
 categories: radio
+audio_url: "https://archive.org/download/2024-09-08-nogallnoglory/2024-09-08-nogallnoglory-jim.mp3"
+audio_length: 287570704
+audio_mime: audio/mpeg
+itunes_duration: "01:59:49"
 ---
 
 [Listen to No Gall . No Glory now on Archive.org](https://archive.org/details/2024-09-08-nogallnoglory).

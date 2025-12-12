@@ -3,6 +3,10 @@ layout: post
 title: "Radio Show: Septmber 17, 2023"
 date: 2023-09-19
 categories: radio
+audio_url: "https://archive.org/download/2023-09-17-nogallnoglory_20230919/2023-09-17-NOGALLNOGLORY.mp3"
+audio_length: 279200995
+audio_mime: audio/mpeg
+itunes_duration: "01:56:20"
 ---
 
 [Listen to No Gall . No Glory now on Archive.org](https://archive.org/details/2023-09-17-nogallnoglory_20230919).

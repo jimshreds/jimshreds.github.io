@@ -18,16 +18,24 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Things & Stuff
-email: jim.cavanagh@gmail.com
+title: Things and Stuff dot wtf
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jimshreds
-github_username:  jimshreds
+  A biweekly Sunday night WKDU 91.7fm radio show and some other things.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://thingsandstuff.wtf" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+# Podcast channel metadata (used by feed.podcast.xml)
+podcast:
+  author: "Things & Stuff"
+  owner_name: "Things & Stuff"
+  owner_email: "jim.cavanagh+thingsandstuff@gmail.com"
+  category: "Music"
+  explicit: "no"
+  image: "/assets/thingsandstuff.jpg" # relative to site root; can be a full https:// URL
+  subtitle: "No Gall . No Glory"
+  summary: "An online place to house WKDU 91.7fm radio show and some other things."
+
 
 # Build settings
 theme: minima
@@ -43,6 +51,8 @@ defaults:
       type: category
     values:
       layout: "category"
+exclude:
+  - scripts/backups
 
 # Exclude from processing.
 # The following items will not be processed, by default.

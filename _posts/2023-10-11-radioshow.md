@@ -3,6 +3,10 @@ layout: post
 title: "Radio Show: October 1, 2023"
 date: 2023-10-11
 categories: radio
+audio_url: "https://archive.org/download/2023-10-01-nogallnoglory/2023-10-01-NOGALLNOGLORY-jim.mp3"
+audio_length: 280172857
+audio_mime: audio/mpeg
+itunes_duration: "01:56:44"
 ---
 
 [Listen to No Gall . No Glory now on Archive.org](https://archive.org/details/2023-10-01-nogallnoglory).

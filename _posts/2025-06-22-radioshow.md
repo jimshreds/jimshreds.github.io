@@ -3,6 +3,10 @@ layout: post
 title: "Radio Show: June 22, 2025"
 date: 2025-06-25
 categories: radio
+audio_url: "https://archive.org/download/2025-06-22-nogallnoglory/2025-06-22-nogallnoglory-jim.mp3"
+audio_length: 286188254
+audio_mime: audio/mpeg
+itunes_duration: "01:59:14"
 ---
 
 [Listen to No Gall . No Glory now on Archive.org](https://archive.org/details/2025-06-22-nogallnoglory).

@@ -3,6 +3,10 @@ layout: post
 title: "Radio Show: March 17, 2024"
 date: 2024-05-19
 categories: radio
+audio_url: "https://archive.org/download/2024-03-17-nogallnoglory/2024-03-17-NOGALLNOGLORY-JIM.mp3"
+audio_length: 272146987
+audio_mime: audio/mpeg
+itunes_duration: "01:53:23"
 ---
 
 [Listen to No Gall . No Glory now on Archive.org](https://archive.org/details/2024-03-17-nogallnoglory).

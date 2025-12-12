@@ -3,6 +3,10 @@ layout: post
 title: "Radio Show: February 05, 2023"
 date: 2023-02-09
 categories: radio
+audio_url: "https://archive.org/download/2022-02-05-nogallnoglory/2022-02-05-NOGALLNOGLORY-JIM.mp3"
+audio_length: 288924851
+audio_mime: audio/mpeg
+itunes_duration: "02:00:23"
 ---
 
 [Listen to No Gall . No Glory now on Archive.org](https://archive.org/details/2022-02-05-nogallnoglory).

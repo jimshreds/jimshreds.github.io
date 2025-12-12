@@ -1,0 +1,16 @@
+<item>
+  <title>{{ include.post.title | xml_escape }}</title>
+  <link>{{ site.url | append: include.post.url }}</link>
+  <guid isPermaLink="false">{{ site.url }}{{ include.post.url }}</guid>
+  <pubDate>{{ include.post.date | date_to_rfc822 }}</pubDate>
+  <description><![CDATA[{{ include.post.content | strip_html | strip_newlines }}]]></description>
+
+  {% if include.post.audio_url %}
+    <enclosure url="{{ include.post.audio_url }}" length="{{ include.post.audio_length | default: 0 }}" type="{{ include.post.audio_mime | default: 'audio/mpeg' }}" />
+  {% endif %}
+
+  <itunes:duration>{{ include.post.itunes_duration | default: include.post.audio_length }}</itunes:duration>
+  <itunes:explicit>{{ include.post.explicit | default: 'no' }}</itunes:explicit>
+  <itunes:episode>{{ include.post.episode | default: include.post.date | date: "%Y%m%d" }}</itunes:episode>
+  <itunes:summary><![CDATA[{{ include.post.excerpt | default: include.post.content | strip_html | strip_newlines }}]]></itunes:summary>
+</item>

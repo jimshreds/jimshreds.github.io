@@ -3,6 +3,10 @@ layout: post
 title: "Radio Show: March 30, 2025"
 date: 2025-04-02
 categories: radio
+audio_url: "https://archive.org/download/2025-03-30-nogallnoglory/2025-03-30-nogallnoglory-jim.mp3"
+audio_length: 280526536
+audio_mime: audio/mpeg
+itunes_duration: "01:56:53"
 ---
 
 [Listen to No Gall . No Glory now on Archive.org](https://archive.org/details/2025-03-30-nogallnoglory).
