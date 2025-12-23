@@ -868,5 +868,17 @@
       "audio_mime": "audio/mpeg",
       "itunes_duration": "01:59:20"
     }
+  },
+  {
+    "post": "_posts/2025-12-21-radioshow.md",
+    "identifier": "2025-12-21-nogallnoglory",
+    "success": true,
+    "reason": null,
+    "updates": {
+      "audio_url": "https://archive.org/download/2025-12-21-nogallnoglory/2025-12-21-NOGALLNOGLORY-jim.mp3",
+      "audio_length": "280816417",
+      "audio_mime": "audio/mpeg",
+      "itunes_duration": "01:57:00"
+    }
   }
 ]
