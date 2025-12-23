@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Radio Show: December 7, 2025"
-date: 2025-12-08
+title: "Radio Show: December 21, 2025"
+date: 2025-12-23
 categories: radio
 audio_url: "https://archive.org/download/2025-12-21-nogallnoglory/2025-12-21-NOGALLNOGLORY-jim.mp3"
 audio_length: 280816417
