@@ -880,5 +880,17 @@
       "audio_mime": "audio/mpeg",
       "itunes_duration": "01:57:00"
     }
+  },
+  {
+    "post": "_posts/2026-01-04-radioshow.md",
+    "identifier": "2026-01-04-nogallnoglory",
+    "success": true,
+    "reason": null,
+    "updates": {
+      "audio_url": "https://archive.org/download/2026-01-04-nogallnoglory/2026-01-04-NOGALLNOGLORY-jim.mp3",
+      "audio_length": "315084891",
+      "audio_mime": "audio/mpeg",
+      "itunes_duration": "02:11:17"
+    }
   }
 ]
