@@ -1,0 +1,3 @@
+--- XMlLint Output ---
+/home/runner/work/_temp/b3003723-befc-4d61-9100-72f9d7effc49.sh: line 4: xmllint: command not found
+XMlint: FAILED
