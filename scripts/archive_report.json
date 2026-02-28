@@ -836,9 +836,14 @@
   {
     "post": "_posts/2025-10-26-radioshow.md",
     "identifier": "2025-10-26-nogallnoglory",
-    "success": false,
-    "reason": "no-audio-file",
-    "updates": null
+    "success": true,
+    "reason": null,
+    "updates": {
+      "audio_url": "https://archive.org/download/2025-10-26-nogallnoglory/2025-10-26-NOGALLNOGLORY-jim.mp3",
+      "audio_length": "278570014",
+      "audio_mime": "audio/mpeg",
+      "itunes_duration": "01:56:04"
+    }
   },
   {
     "post": "_posts/2025-11-23-radioshow.md",
@@ -910,6 +915,18 @@
       "audio_length": "287383772",
       "audio_mime": "audio/mpeg",
       "itunes_duration": "01:59:44"
+    }
+  },
+  {
+    "post": "_posts/2026-02-28-radioshow.md",
+    "identifier": "2026-02-15-nogallnoglory",
+    "success": true,
+    "reason": null,
+    "updates": {
+      "audio_url": "https://archive.org/download/2026-02-15-nogallnoglory/2026-02-15-NOGALLNOGLORY-jim.mp3",
+      "audio_length": "290065052",
+      "audio_mime": "audio/mpeg",
+      "itunes_duration": "02:00:51"
     }
   }
 ]
