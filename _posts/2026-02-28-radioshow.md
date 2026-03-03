@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Radio Show: February 01, 2026"
+title: "Radio Show: February 15, 2026"
 date: 2026-02-16
 categories: radio
 audio_url: "https://archive.org/download/2026-02-15-nogallnoglory/2026-02-15-NOGALLNOGLORY-jim.mp3"
