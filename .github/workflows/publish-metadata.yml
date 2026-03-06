@@ -47,9 +47,10 @@ jobs:
           git commit -m "chore: update podcast metadata (automated)"
           BRANCH_NAME="metadata-run-$(date +%Y%m%d-%H%M%S)"
           echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
-          echo "Creating and pushing branch: $BRANCH_NAME"
+          echo "Creating branch: $BRANCH_NAME"
           git checkout -b $BRANCH_NAME
-          git push origin $BRANCH_NAME --force
+          echo "Pushing branch..."
+          git push origin $BRANCH_NAME
           echo "Push successful"
       - name: Checkout pushed branch
         run: |
