@@ -35,11 +35,11 @@ jobs:
             exit 0
           fi
           git commit -m "chore: update podcast metadata (automated)"
-          git push origin HEAD:metadata/run --force
+          git push origin HEAD:metadata/run-${{ github.run_id }} --force
       - name: Checkout pushed branch
         run: |
-          git fetch origin metadata/run:metadata/run || true
-          git checkout metadata/run || git checkout -b metadata/run
+          git fetch origin metadata/run-${{ github.run_id }}:metadata/run-${{ github.run_id }} || true
+          git checkout metadata/run-${{ github.run_id }} || git checkout -b metadata/run-${{ github.run_id }}
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
@@ -86,7 +86,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "chore: update podcast metadata (automated)"
-          branch: metadata/run
+          branch: metadata/run-${{ github.run_id }}
           title: "Automated: Update podcast metadata"
           body: "$(cat pr_body.md)"
           base: master
