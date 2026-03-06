@@ -31,7 +31,7 @@ jobs:
         run: bundle exec jekyll build
 
       - name: Validate feed XML (well-formed)
-        run: xmllint --noout _site/feed.podcast.xml
+        run: python3 -c "import xml.etree.ElementTree as ET; ET.parse('_site/feed.podcast.xml'); print('XML is valid')"
 
       - name: Show feed head
         run: sed -n '1,120p' _site/feed.podcast.xml

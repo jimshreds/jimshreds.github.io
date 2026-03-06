@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Radio Show: February 15, 2026"
-date: 2026-02-16
+title: "Radio Show: February 29, 2026"
+date: 2026-02-29
 categories: radio
 audio_url: "https://archive.org/download/2026-02-29-nogallnoglory/2026-02-29-NOGALLNOGLORY-jim.mp3"
 audio_length: 287211018

@@ -249,7 +249,8 @@ def main():
     for t in targets:
         res = process_post(t, identifier=args.id, dry_run=args.dry_run, backup=args.backup, head_fallback=args.head_fallback, timeout=args.timeout, retries=args.retries)
         report.append(res)
-        if not res.get('success'):
+        # Only fail on actual processing errors, not on missing identifiers
+        if not res.get('success') and res.get('reason') not in ('no-identifier',):
             ok = False
 
     if args.report:
