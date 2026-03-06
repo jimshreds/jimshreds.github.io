@@ -33,21 +33,21 @@ Play Now
 4. Watch It Die / Home Front
 5. La Ciudad / Belgrado
 6. Get off the Internet / Le Tigre
-7. Born Before The Internet / The Low Budg
-8. Anarchy Means I Litter / Atom & His Pack
+7. Born Before The Internet / The Low Budgets
+8. Anarchy Means I Litter / Atom & His Package
 9. Rip 'Em Off / The Showcase Showdown
 10. Parts Unknown / J Church
 11. Circles / Dag Nasty
 12. Dance Of Days / Embrace
-13. I'm Back Sleeping, or F*****g, or Someth
-14. Switch Is Down / Universal Order of Arm
-15. Teenage Debutaunt And The Debutaunt
+13. I'm Back Sleeping, or F*****g, or Something / Orchid
+14. Switch Is Down / Universal Order of Armageddon
+15. Teenage Debutaunt And The Debutaunt Ball / Antioch Arrow
 16. Right Turn Clyde / Circus Lupus
 17. Notres Langues Nous Trompes / Saetia
 18. New Jersey Vs. Valhalla / Orchid
-19. Propaganda Films Shot With a Sitcom Sc
+19. Propaganda Films Shot With a Sitcom Script / COMBAT WOUNDED VETERAN
 20. The Mangled Hand / pageninetynine
-21. Get the Kid With the Sideburns / Reversa
+21. Get the Kid With the Sideburns / Reversal of Man
 22. Like My Plain / Sleepytime Trio
 23. 1% / Policy of Three
 24. Blister / Frail
