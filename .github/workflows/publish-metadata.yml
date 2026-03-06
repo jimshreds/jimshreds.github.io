@@ -8,6 +8,9 @@ on:
 jobs:
   run-and-commit:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -31,6 +34,7 @@ jobs:
       - name: Commit changes
         id: commit
         run: |
+          set -e
           git add -A
           if git diff --cached --quiet; then
             echo "No changes to commit"
@@ -41,6 +45,7 @@ jobs:
           echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
           echo "Pushing to branch: $BRANCH_NAME"
           git push origin HEAD:$BRANCH_NAME --force
+          echo "Push successful"
       - name: Checkout pushed branch
         run: |
           BRANCH_NAME="${{ steps.commit.outputs.branch_name }}"
