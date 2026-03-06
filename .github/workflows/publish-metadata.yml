@@ -35,23 +35,28 @@ jobs:
         id: commit
         run: |
           set -e
+          echo "Current git status:"
+          git status
+          echo "Adding files..."
           git add -A
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
+          echo "Committing changes..."
           git commit -m "chore: update podcast metadata (automated)"
-          BRANCH_NAME="metadata/run-$(date +%Y%m%d-%H%M%S)"
+          BRANCH_NAME="metadata-run-$(date +%Y%m%d-%H%M%S)"
           echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
-          echo "Pushing to branch: $BRANCH_NAME"
-          git push origin HEAD:$BRANCH_NAME --force
+          echo "Creating and pushing branch: $BRANCH_NAME"
+          git checkout -b $BRANCH_NAME
+          git push origin $BRANCH_NAME --force
           echo "Push successful"
       - name: Checkout pushed branch
         run: |
           BRANCH_NAME="${{ steps.commit.outputs.branch_name }}"
-          echo "Checking out branch: $BRANCH_NAME"
-          git fetch origin $BRANCH_NAME:$BRANCH_NAME || true
-          git checkout $BRANCH_NAME || git checkout -b $BRANCH_NAME
+          echo "Already on branch: $BRANCH_NAME"
+          echo "Current branch:"
+          git branch --show-current
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
