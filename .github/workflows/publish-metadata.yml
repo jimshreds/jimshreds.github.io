@@ -3,6 +3,8 @@ name: Run metadata and open PR
 on:
   push:
     branches: [ master ]
+    paths:
+      - '_posts/**radioshow.md'
   workflow_dispatch:
 
 jobs:
@@ -22,7 +24,7 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Run metadata script (makes changes)
+      - name: Run metadata script
         run: |
           python3 scripts/fetch_archive_metadata.py --all --backup --head-fallback --report scripts/archive_report.json || true
 
@@ -31,80 +33,74 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "actions@github.com"
 
-      - name: Commit changes
-        id: commit
+      - name: Check for changes and create branch
+        id: changes
         run: |
-          set -e
-          echo "Current git status:"
-          git status
-          echo "Adding files..."
           git add -A
           if git diff --cached --quiet; then
             echo "No changes to commit"
-            exit 0
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            BRANCH_NAME="metadata-run-$(date +%Y%m%d-%H%M%S)"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
+            git checkout -b "$BRANCH_NAME"
+            git commit -m "chore: update podcast metadata (automated)"
+            git push origin "$BRANCH_NAME"
           fi
-          echo "Committing changes..."
-          git commit -m "chore: update podcast metadata (automated)"
-          BRANCH_NAME="metadata-run-$(date +%Y%m%d-%H%M%S)"
-          echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
-          echo "Creating branch: $BRANCH_NAME"
-          git checkout -b $BRANCH_NAME
-          echo "Pushing branch..."
-          git push origin $BRANCH_NAME
-          echo "Push successful"
-      - name: Checkout pushed branch
-        run: |
-          BRANCH_NAME="${{ steps.commit.outputs.branch_name }}"
-          echo "Already on branch: $BRANCH_NAME"
-          echo "Current branch:"
-          git branch --show-current
 
       - name: Set up Ruby
+        if: steps.changes.outputs.has_changes == 'true'
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
 
       - name: Install Bundler and gems
+        if: steps.changes.outputs.has_changes == 'true'
         run: |
           gem install bundler
           bundle install --jobs 4 --retry 3
 
       - name: Build site and validate feed
+        if: steps.changes.outputs.has_changes == 'true'
         run: |
-          set -o pipefail
           bundle exec jekyll build > build_output.txt 2>&1 || true
-          echo "--- XMlLint Output ---" > xmllint_output.txt
-          if xmllint --noout _site/feed.podcast.xml 2>> xmllint_output.txt; then
-            echo "XMlint: OK" >> xmllint_output.txt
+          if xmllint --noout _site/feed.podcast.xml 2> xmllint_output.txt; then
+            echo "xmllint: OK" >> xmllint_output.txt
           else
-            echo "XMlint: FAILED" >> xmllint_output.txt
+            echo "xmllint: FAILED" >> xmllint_output.txt
           fi
-          echo "Build and xmllint finished"
 
       - name: Prepare PR body
+        if: steps.changes.outputs.has_changes == 'true'
         run: |
-          echo "Automated metadata update (see report below)." > pr_body.md
-          echo >> pr_body.md
-          echo "## Metadata script report" >> pr_body.md
-          echo ' ' >> pr_body.md
-          if [ -f scripts/archive_report.json ]; then
-            jq -r '.' scripts/archive_report.json >> pr_body.md || cat scripts/archive_report.json >> pr_body.md
-          else
-            echo 'No scripts/archive_report.json generated.' >> pr_body.md
-          fi
-          echo >> pr_body.md
-          echo "## Build output (truncated)" >> pr_body.md
-          tail -n 200 build_output.txt >> pr_body.md || true
-          echo >> pr_body.md
-          echo "## xmllint output" >> pr_body.md
-          cat xmllint_output.txt >> pr_body.md || true
+          {
+            echo "Automated metadata update."
+            echo ""
+            echo "## Metadata script report"
+            echo ""
+            if [ -f scripts/archive_report.json ]; then
+              python3 -m json.tool scripts/archive_report.json 2>/dev/null || cat scripts/archive_report.json
+            else
+              echo "No report generated."
+            fi
+            echo ""
+            echo "## Build output (last 200 lines)"
+            echo ""
+            tail -n 200 build_output.txt 2>/dev/null || echo "No build output."
+            echo ""
+            echo "## xmllint output"
+            echo ""
+            cat xmllint_output.txt 2>/dev/null || echo "No xmllint output."
+          } > pr_body.md
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v5
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "chore: update podcast metadata (automated)"
-          branch: ${{ steps.commit.outputs.branch_name }}
-          title: "Automated: Update podcast metadata"
-          body: "$(cat pr_body.md)"
-          base: master
+        if: steps.changes.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create \
+            --title "Automated: Update podcast metadata" \
+            --base master \
+            --head "${{ steps.changes.outputs.branch_name }}" \
+            --body-file pr_body.md
