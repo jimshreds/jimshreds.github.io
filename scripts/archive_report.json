@@ -952,5 +952,17 @@
       "audio_mime": "audio/mpeg",
       "itunes_duration": "01:56:50"
     }
+  },
+  {
+    "post": "_posts/2026-05-03-radioshow.md",
+    "identifier": "2026-05-03-no-gall-no-glory",
+    "success": true,
+    "reason": null,
+    "updates": {
+      "audio_url": "https://archive.org/download/2026-05-03-no-gall-no-glory/2026-05-03-no-gall-no-glory.mp3",
+      "audio_length": "294463875",
+      "audio_mime": "audio/mpeg",
+      "itunes_duration": "02:02:41"
+    }
   }
 ]
