@@ -3,7 +3,10 @@ layout: post
 title: "Radio Show: August 16, 2026"
 date: 2026-08-20
 categories: radio
-
+audio_url: "https://archive.org/download/2026-08-16-no-gall-no-glory/2026-08-16-no-gall-no-glory-jim.mp3"
+audio_length: 282360092
+audio_mime: audio/mpeg
+itunes_duration: "01:57:38"
 ---
 
 
