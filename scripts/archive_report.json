@@ -1024,5 +1024,17 @@
       "audio_mime": "audio/mpeg",
       "itunes_duration": "01:57:38"
     }
+  },
+  {
+    "post": "_posts/2026-11-07-radioshow.md",
+    "identifier": "2026-11-07-no-gall-no-glory",
+    "success": true,
+    "reason": null,
+    "updates": {
+      "audio_url": "https://archive.org/download/2026-11-07-no-gall-no-glory/2026-11-07-no-gall-no-glory-jim.mp3",
+      "audio_length": "287005533",
+      "audio_mime": "audio/mpeg",
+      "itunes_duration": "01:59:35"
+    }
   }
 ]

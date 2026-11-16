@@ -216,9 +216,18 @@ def process_post(post_path, identifier=None, dry_run=False, backup=False, head_f
     return result
 
 
+RADIO_NAME_RE = re.compile(r'^\d{4}-\d{2}-\d{2}-radioshow\.md$')
+
+
 def find_radioshow_posts():
     p = Path('_posts')
-    return sorted([str(x) for x in p.glob('*radioshow.md')])
+    posts = []
+    for x in sorted(p.glob('*radioshow*')):
+        if RADIO_NAME_RE.match(x.name):
+            posts.append(str(x))
+        else:
+            print(f'WARNING: skipping misnamed radio post {x} (expected YYYY-MM-DD-radioshow.md)')
+    return posts
 
 
 def main():
@@ -226,6 +235,7 @@ def main():
     parser.add_argument('post', nargs='?', help='Path to the post to update')
     parser.add_argument('--id', help='Archive.org identifier to use')
     parser.add_argument('--all', action='store_true', help='Process all radioshow posts in _posts')
+    parser.add_argument('--missing-only', action='store_true', help='With --all, skip posts that already have audio_url')
     parser.add_argument('--dry-run', action='store_true', help="Don't write files")
     parser.add_argument('--backup', action='store_true', help='Create .bak backup before editing')
     parser.add_argument('--head-fallback', action='store_true', help='If size missing, HEAD the download URL')
@@ -238,6 +248,8 @@ def main():
     targets = []
     if args.all:
         targets = find_radioshow_posts()
+        if args.missing_only:
+            targets = [t for t in targets if not re.search(r'^audio_url:', Path(t).read_text(encoding='utf-8'), re.M)]
     elif args.post:
         targets = [args.post]
     else:

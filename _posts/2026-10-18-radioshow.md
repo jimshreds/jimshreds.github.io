@@ -3,7 +3,10 @@ layout: post
 title: "Radio Show: October 18 2026"
 date: 2026-10-19
 categories: radio
-
+audio_url: "https://archive.org/download/2026-10-18-no-gall-no-glory/2026-10-18-no-gall-no-glory.mp3"
+audio_length: 292480413
+audio_mime: audio/mpeg
+itunes_duration: "02:01:51"
 ---
 
 

@@ -15,3 +15,13 @@ bundle exec jekyll build
 
 # validate
 xmllint --noout _site/feed.podcast.xml && echo "feed ok"
+
+
+# new show: create post, fetch archive.org metadata, validate
+python3 scripts/new_show.py 2026-11-21
+
+# validate radio posts (run before building; --strict also fails on date mismatches)
+python3 scripts/check_posts.py
+
+# fill in audio metadata later for posts that don't have it yet
+python3 scripts/fetch_archive_metadata.py --all --missing-only --backup --head-fallback
